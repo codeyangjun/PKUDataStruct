@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1457335941 source:f:\c++ workspace\pkudatastruct\multiplication of large interger\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<cstdlib>
+	<cstdio>
+	<assert.h>
+

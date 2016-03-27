@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1457332051 source:f:\c++ workspace\pkudatastruct\monkeykingelection\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+
