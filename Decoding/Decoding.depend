@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1458961052 source:f:\c++ workspace\pkudatastruct\decoding\main.cpp
+	<iostream>
+	<string.h>
+	<cstdio>
+	<cstdlib>
+
