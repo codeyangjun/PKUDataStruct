@@ -1,8 +1,9 @@
 # depslib dependency file v1.0
-1459080332 source:f:\c++ workspace\pkudatastruct\lazy math instructor\main.cpp
+1459214321 source:f:\c++ workspace\pkudatastruct\lazy math instructor\main.cpp
 	<iostream>
-	<cstdio>
-	<string.h>
-	<map>
 	<stack>
+	<map>
+	<cstring>
+	<cstdlib>
+	<cstdio>
 

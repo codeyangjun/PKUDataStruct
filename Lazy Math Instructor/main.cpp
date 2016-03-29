@@ -61,7 +61,7 @@ void Change( char ch[] )//将中缀表达式转化为后缀表达式
                     s1[j++] = s.top() ;
                     s.pop() ;
                 }
-                s.push(ch[i]) ;//压人目前字符串扫描读到的字符
+                s.push(ch[i]) ;//压人目前字符串扫描读到的操作符
                 break ;
             }
         }
