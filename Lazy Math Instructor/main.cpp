@@ -43,7 +43,7 @@ void Change( char ch[] )//将中缀表达式转化为后缀表达式
             switch( ch[i] )
             {
             case '(' :
-                s.push( ch[i] ) ;//遇到(，入栈
+                s.push( ch[i] ) ;//遇到( ,入栈
                 break ;
             case ')' :
                 while ( s.top() != '(' )
@@ -56,12 +56,12 @@ void Change( char ch[] )//将中缀表达式转化为后缀表达式
             case '+' :
             case '-' :
             case '*' :
-                while ( !s.empty() && m[s.top()] >= m[ch[i]] )//栈顶的优先级高
+                while ( !s.empty() && m[s.top()] >= m[ch[i]] )//栈顶的优先级高,弹出栈顶的运算符
                 {
                     s1[j++] = s.top() ;
                     s.pop() ;
                 }
-                s.push(ch[i]) ;
+                s.push(ch[i]) ;//压人目前字符串扫描读到的字符
                 break ;
             }
         }
@@ -72,8 +72,8 @@ void Change( char ch[] )//将中缀表达式转化为后缀表达式
         s1[j++] = s.top() ;
         s.pop() ;
     }
-    s1[j] = 0 ;
-// cout << s1 << endl ;
+    s1[j] = '\0' ;//添加字符串的结束标识
+//    cout << s1 << endl ;
 }
 
 int Result()//此刻数组s1中保存的为后缀表达式
