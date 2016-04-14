@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1460641358 source:f:\c++ workspace\pkudatastruct\rebuild binary tree\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+
