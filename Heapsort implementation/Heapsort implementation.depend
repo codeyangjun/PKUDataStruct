@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1460874323 source:f:\c++ workspace\pkudatastruct\heapsort implementation\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+
